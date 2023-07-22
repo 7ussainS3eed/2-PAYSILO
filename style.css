@@ -1,0 +1,101 @@
+* {
+    font-family: system-ui
+}
+
+body {
+    background-image: url(bodyBackground.jpg);
+    background-size: cover;
+    overflow: hidden
+}
+
+.overlay {
+    width: 100%;
+    height: 200vh;
+    background-color: #151e3fed;
+    box-shadow: 200px 200px 100px #151e3fed;
+    position: absolute;
+    z-index: -1;
+    top: -100vh;
+    left: -40%;
+    border-right: 1px solid #151e3f;    
+    transform: rotate(22deg);
+    -webkit-transform: rotate(22deg);
+    -moz-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+    -o-transform: rotate(22deg)
+}
+
+.container {
+    width: 1170px;
+    margin: auto
+}
+
+.container header {
+    margin-top: 30px;
+    margin-bottom: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.container header .logo {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.container header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    display: flex;
+    gap: 10px
+}
+
+.container header ul li {
+    padding: 7px 15px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px
+}
+
+.container header ul .active {
+    background-color: #3a7af7
+}
+
+.container header ul li span {
+    text-transform: lowercase
+}
+
+.container .content h1 {
+    width: 40%;
+    color: white;
+    font-size: 45px;
+    line-height: 1;
+    text-transform: capitalize
+}
+
+.container .content p {
+    width: 35%;
+    color: rgb(181, 181, 181)
+}
+
+.container .content button {
+    padding: 10px 20px;
+    background-color: #3a7af7;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px
+}
